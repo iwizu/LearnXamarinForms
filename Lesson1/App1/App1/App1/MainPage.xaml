@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App1"
+             x:Class="App1.MainPage">
+    <StackLayout>
+	<Label Text="Choose from the bellow:" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+    <Label Text="---PAGES---" 
+           VerticalOptions="Start" 
+           HorizontalOptions="StartAndExpand" />
+    <Button Text="Pages" Clicked="Button_Clicked"
+            VerticalOptions="Start"
+            HorizontalOptions="StartAndExpand" />
+    <Label Text="---LAYOUTS---" 
+           VerticalOptions="Start" 
+           HorizontalOptions="StartAndExpand" />
+    <Button Text="Layouts" Clicked="Button_Clicked_1"
+            VerticalOptions="Start"
+            HorizontalOptions="StartAndExpand" />
+    </StackLayout>
+</ContentPage>

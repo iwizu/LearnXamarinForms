@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Pages.AContentPage">
+    <StackLayout>
+    <Label Text="Select one Page" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+    <Button Text="MasterDetail" Clicked="Button_Clicked"
+            VerticalOptions="Start"
+            HorizontalOptions="StartAndExpand" />
+    <Button Text="NavigationPage" Clicked="Button_Clicked_1"
+            VerticalOptions="Center"
+            HorizontalOptions="StartAndExpand" />
+    <Button Text="TabbedPage" Clicked="Button_Clicked_2"
+            VerticalOptions="Center"
+            HorizontalOptions="StartAndExpand" />
+        <Button Text="CarouselPage" Clicked="Button_Clicked_3"
+            VerticalOptions="Center"
+            HorizontalOptions="StartAndExpand" />
+    </StackLayout>
+</ContentPage>
