@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App1"
+             x:Class="App1.MainPage">
+    <StackLayout>
+	<Label Text="Choose from the bellow:" 
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+    <Label Text="---PAGES---" 
+           VerticalOptions="Start" 
+           HorizontalOptions="StartAndExpand" />
+    <Button Text="Pages" Clicked="Button_Clicked"
+            VerticalOptions="Start"
+            HorizontalOptions="StartAndExpand" />
+    <Label Text="---LAYOUTS---" 
+           VerticalOptions="Start" 
+           HorizontalOptions="StartAndExpand" />
+    <Button Text="Layouts" Clicked="Button_Clicked_1"
+            VerticalOptions="Start"
+            HorizontalOptions="StartAndExpand" />
+        <Label Text="---CONTROLS---" 
+           VerticalOptions="Start" 
+           HorizontalOptions="StartAndExpand" />
+        <Button Text="Controls" Clicked="Button_Clicked_2"
+            VerticalOptions="Start"
+            HorizontalOptions="StartAndExpand" />
+        <Label Text="---BINDINGS---" 
+           VerticalOptions="Start" 
+           HorizontalOptions="StartAndExpand" />
+        <Button Text="Bindings" Clicked="Button_Clicked_3"
+            VerticalOptions="Start"
+            HorizontalOptions="StartAndExpand" />
+        <Label Text="---STYLE---" 
+           VerticalOptions="Start" 
+           HorizontalOptions="StartAndExpand" />
+        <Button Text="Style" Clicked="Button_Clicked_4"
+            VerticalOptions="Start"
+            HorizontalOptions="StartAndExpand" />
+        <Label Text="---ANIMATIONS---" 
+           VerticalOptions="Start" 
+           HorizontalOptions="StartAndExpand" />
+        <Button Text="Animations" Clicked="Button_Clicked_5"
+            VerticalOptions="Start"
+            HorizontalOptions="StartAndExpand" />
+        <Label Text="---NAVIGATION---" 
+           VerticalOptions="Start" 
+           HorizontalOptions="StartAndExpand" />
+        <Button Text="Navigation" Clicked="Button_Clicked_6"
+            VerticalOptions="Start"
+            HorizontalOptions="StartAndExpand" />
+    </StackLayout>
+</ContentPage>

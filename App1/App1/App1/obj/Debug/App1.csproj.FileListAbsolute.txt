@@ -1,0 +1,70 @@
+C:\Users\iwizu\documents\visual studio 2017\Projects\App1\App1\App1\obj\Debug\App1.MainPage.xaml.g.cs
+C:\Users\iwizu\documents\visual studio 2017\Projects\App1\App1\App1\obj\Debug\App1.App.xaml.g.cs
+C:\Users\iwizu\documents\visual studio 2017\Projects\App1\App1\App1\obj\Debug\App1.Pages.AContentPage.xaml.g.cs
+C:\Users\iwizu\documents\visual studio 2017\Projects\App1\App1\App1\obj\Debug\App1.dll
+C:\Users\iwizu\documents\visual studio 2017\Projects\App1\App1\App1\obj\Debug\App1.pdb
+C:\Users\iwizu\documents\visual studio 2017\Projects\App1\App1\App1\obj\Debug\App1.Pages.AMasterDetailPage.xaml.g.cs
+C:\Users\iwizu\documents\visual studio 2017\Projects\App1\App1\App1\obj\Debug\App1.Pages.AMasterDetailPageMaster.xaml.g.cs
+C:\Users\iwizu\documents\visual studio 2017\Projects\App1\App1\App1\obj\Debug\App1.Pages.AMasterDetailPageDetail.xaml.g.cs
+C:\Users\iwizu\documents\visual studio 2017\Projects\App1\App1\App1\bin\Debug\App1.dll
+C:\Users\iwizu\documents\visual studio 2017\Projects\App1\App1\App1\bin\Debug\App1.pdb
+C:\Users\iwizu\documents\visual studio 2017\Projects\App1\App1\App1\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\iwizu\documents\visual studio 2017\Projects\App1\App1\App1\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\iwizu\documents\visual studio 2017\Projects\App1\App1\App1\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\iwizu\documents\visual studio 2017\Projects\App1\App1\App1\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\iwizu\documents\visual studio 2017\Projects\App1\App1\App1\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\iwizu\documents\visual studio 2017\Projects\App1\App1\App1\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\iwizu\documents\visual studio 2017\Projects\App1\App1\App1\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\iwizu\documents\visual studio 2017\Projects\App1\App1\App1\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\iwizu\documents\visual studio 2017\Projects\App1\App1\App1\obj\Debug\App1.csprojResolveAssemblyReference.cache
+C:\Users\iwizu\documents\visual studio 2017\Projects\App1\App1\App1\obj\Debug\App1.Pages.ContentPage2.xaml.g.cs
+C:\Users\iwizu\documents\visual studio 2017\Projects\App1\App1\App1\obj\Debug\App1.Pages.ATabbedPage.xaml.g.cs
+C:\Users\iwizu\documents\visual studio 2017\Projects\App1\App1\App1\obj\Debug\App1.Pages.ATabbedPageTab1.xaml.g.cs
+C:\Users\iwizu\documents\visual studio 2017\Projects\App1\App1\App1\obj\Debug\App1.Pages.ACarouselPage.xaml.g.cs
+C:\Users\iwizu\documents\visual studio 2017\Projects\App1\App1\App1\obj\Debug\App1.Layouts.AStackLayout.xaml.g.cs
+C:\Users\iwizu\documents\visual studio 2017\Projects\App1\App1\App1\obj\Debug\App1.Layouts.LayoutsMenu.xaml.g.cs
+C:\Users\iwizu\documents\visual studio 2017\Projects\App1\App1\App1\obj\Debug\App1.Layouts.AAbsoluteLayout.xaml.g.cs
+C:\Users\iwizu\documents\visual studio 2017\Projects\App1\App1\App1\obj\Debug\App1.Layouts.ARelativeLayout.xaml.g.cs
+C:\Users\iwizu\documents\visual studio 2017\Projects\App1\App1\App1\obj\Debug\App1.Layouts.AGridLayout.xaml.g.cs
+C:\Users\iwizu\documents\visual studio 2017\Projects\App1\App1\App1\obj\Debug\App1.Layouts.AContentView.xaml.g.cs
+C:\Users\iwizu\documents\visual studio 2017\Projects\App1\App1\App1\obj\Debug\App1.Layouts.AScrollView.xaml.g.cs
+C:\Users\iwizu\documents\visual studio 2017\Projects\App1\App1\App1\obj\Debug\App1.Layouts.AFrame.xaml.g.cs
+C:\Users\iwizu\documents\visual studio 2017\Projects\App1\App1\App1\obj\Debug\App1.dll.mdb
+C:\Users\iwizu\documents\visual studio 2017\Projects\App1\App1\App1\bin\Debug\App1.dll.mdb
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\App1\App1\bin\Debug\App1.dll
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\App1\App1\bin\Debug\App1.pdb
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\App1\App1\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\App1\App1\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\App1\App1\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\App1\App1\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\App1\App1\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\App1\App1\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\App1\App1\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\App1\App1\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\App1\App1\obj\Debug\App1.MainPage.xaml.g.cs
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\App1\App1\obj\Debug\App1.App.xaml.g.cs
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\App1\App1\obj\Debug\App1.Pages.AContentPage.xaml.g.cs
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\App1\App1\obj\Debug\App1.Pages.AMasterDetailPage.xaml.g.cs
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\App1\App1\obj\Debug\App1.Pages.AMasterDetailPageMaster.xaml.g.cs
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\App1\App1\obj\Debug\App1.Pages.AMasterDetailPageDetail.xaml.g.cs
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\App1\App1\obj\Debug\App1.Pages.ContentPage2.xaml.g.cs
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\App1\App1\obj\Debug\App1.Pages.ATabbedPage.xaml.g.cs
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\App1\App1\obj\Debug\App1.Pages.ATabbedPageTab1.xaml.g.cs
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\App1\App1\obj\Debug\App1.Pages.ACarouselPage.xaml.g.cs
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\App1\App1\obj\Debug\App1.Layouts.AStackLayout.xaml.g.cs
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\App1\App1\obj\Debug\App1.Layouts.LayoutsMenu.xaml.g.cs
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\App1\App1\obj\Debug\App1.Layouts.AAbsoluteLayout.xaml.g.cs
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\App1\App1\obj\Debug\App1.Layouts.ARelativeLayout.xaml.g.cs
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\App1\App1\obj\Debug\App1.Layouts.AGridLayout.xaml.g.cs
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\App1\App1\obj\Debug\App1.Layouts.AContentView.xaml.g.cs
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\App1\App1\obj\Debug\App1.Layouts.AScrollView.xaml.g.cs
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\App1\App1\obj\Debug\App1.Layouts.AFrame.xaml.g.cs
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\App1\App1\obj\Debug\App1.Controls.AControlsPage.xaml.g.cs
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\App1\App1\obj\Debug\App1.dll
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\App1\App1\obj\Debug\App1.pdb
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\App1\App1\obj\Debug\App1.csprojResolveAssemblyReference.cache
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\App1\App1\obj\Debug\App1.Bindings.BindingsPage.xaml.g.cs
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\App1\App1\obj\Debug\App1.Styles.StylePage.xaml.g.cs
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\App1\App1\obj\Debug\App1.Animations.AnimationPage.xaml.g.cs
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\App1\App1\obj\Debug\App1.Navigation.NavigationPage1.xaml.g.cs
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\App1\App1\obj\Debug\App1.Navigation.NavigationPage2.xaml.g.cs

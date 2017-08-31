@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App1;assembly=App1"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             x:Class="App1.Styles.StylePage" >
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style Class="LabelTemplate" TargetType="Label">
+                <Setter Property="TextColor" Value="#575e62" />
+                <Setter Property="BackgroundColor" Value="#9facb3" />
+                <Setter Property="FontSize" Value="14" />
+                <Setter Property="Text" Value="A Stylish Label" />
+            </Style>
+            <Style Class="ButtonTemplate" TargetType="Button">
+                <Setter Property="TextColor" Value="#575e62" />
+                <Setter Property="BackgroundColor" Value="#9facb3" />
+                <Setter Property="FontSize" Value="14" />
+                <Setter Property="Text" Value="A Stylish Button" />
+                <Setter Property="BorderColor" Value="Blue" />
+                <Setter Property="BorderRadius" Value="5" />
+                <Setter Property="BorderWidth" Value="2" />
+            </Style>
+            <x:Double x:Key="rotationAngle">-15</x:Double>
+            <Color x:Key="textColor1">Red</Color>
+            <OnPlatform x:Key="textColor"
+            x:TypeArguments="Color"
+            iOS="Red"
+            Android="Aqua"
+            WinPhone="#80FF80" />            
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Lets style a Label, a Button and an Entry!" />
+            <Label StyleClass="LabelTemplate"  
+                   Rotation="{StaticResource rotationAngle}" TextColor="{StaticResource textColor}" ></Label>
+            <Button StyleClass="ButtonTemplate" ></Button>
+            <Entry StyleClass="EntryTemplate"></Entry>
+            <Label Text="Text with color from x:Static!" TextColor="{x:Static local:ColorsList.ForegroundColor}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

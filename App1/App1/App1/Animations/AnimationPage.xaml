@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Animations.AnimationPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="RotateTo" Clicked="Button_Clicked"></Button>
+            <Button Text="RotateXTo" Clicked="Button_Clicked_7"></Button>
+            <Button Text="RelRotateTo" Clicked="Button_Clicked_1"></Button>
+            <Button Text="ScaleTo" Clicked="Button_Clicked_2"></Button>
+            <Button Text="RelScaleTo" Clicked="Button_Clicked_3"></Button>
+            <Button Text="Scaling and Rotation with Anchors" Clicked="Button_Clicked_4"></Button>
+            <Button Text="TranslateTo" Clicked="Button_Clicked_5"></Button>
+            <Button Text="Fading" Clicked="Button_Clicked_6"></Button>
+
+            <Label x:Name="AnimationLabel" HorizontalTextAlignment="Center" Text="Welcome to Xamarin Forms!" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Navigation.NavigationPage2">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Navigation Page 2" />
+            <Label x:Name="PassedValue" Text="Navigation Page 2" />
+            <Button x:Name="GoToPrevious" Text="Back" Clicked="OnPreviousPageButtonClicked"></Button>
+            <Button x:Name="GoToRoot" Text="Back to Root page" Clicked="OnRootPageButtonClicked"></Button>
+            <Button x:Name="AlertBtn" Text="A simple Alert" Clicked="AlertBtn_Clicked"></Button>
+            <Button x:Name="AlertYesNo" Text="Are you sure? (Yes/No alert)" Clicked="OnAlertYesNoClicked"></Button>
+            <Button x:Name="AlertMultipleChoice" Text="Select one? (Multiple options alert)" Clicked="OnActionSheetSimpleClicked"></Button>
+            <Button x:Name="AlertWithCancel" Text="Select one? (Multiple options with cancel alert)" Clicked="OnActionSheetSimpleClicked"></Button>
+            <Button x:Name="AlertWithCancelDelete" Text="Select one? (Multiple options with cancel/delete alert)" Clicked="OnActionSheetCancelDeleteClicked"></Button>
+
+            <Label x:Name="AlertAnswer" Text="" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

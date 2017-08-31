@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UniBooks.BuyPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Book Information" />
+            <Grid HeightRequest="175" WidthRequest="150" Margin="0,0,0,18"  >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="100"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <RowDefinition Height="49"></RowDefinition>
+                    <RowDefinition Height="1"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Image Grid.Column="0" Grid.Row="0" Grid.RowSpan="3" Source="{Binding Book.volumeInfo.imageLinks.smallThumbnail}" Aspect="AspectFit"></Image>
+                <StackLayout  Grid.Column="1" Grid.Row="0" Grid.RowSpan="3"  >
+                    <Label  Text="{Binding Book.volumeInfo.title}" TextColor="#86878B" FontAttributes="Bold" />
+                    <Label  Text="{Binding Book.volumeInfo.description}" TextColor="#CFD0D5" HeightRequest="80" />
+                </StackLayout>
+                <StackLayout  Grid.Column="2" Grid.Row="0" Grid.RowSpan="2"  >
+                    <StackLayout Orientation="Horizontal">
+                        <Image>
+                            <Image.Source>
+                                <OnPlatform  x:TypeArguments="ImageSource">
+                                    <OnPlatform.iOS>publ.png</OnPlatform.iOS>
+                                    <OnPlatform.Android>publ.png</OnPlatform.Android>
+                                    <OnPlatform.WinPhone>Assets/publ.png</OnPlatform.WinPhone>
+                                </OnPlatform>
+                            </Image.Source>
+                        </Image>
+                        <Label    Text="{Binding Book.volumeInfo.publisher}" TextColor="#CFD0D5" FontSize="10" FontAttributes="Italic"  />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Image>
+                            <Image.Source>
+                                <OnPlatform  x:TypeArguments="ImageSource">
+                                    <OnPlatform.iOS>rating.png</OnPlatform.iOS>
+                                    <OnPlatform.Android>rating.png</OnPlatform.Android>
+                                    <OnPlatform.WinPhone>Assets/rating.png</OnPlatform.WinPhone>
+                                </OnPlatform>
+                            </Image.Source>
+                        </Image>
+                        <Label    Text="{Binding Book.volumeInfo.Ratings}" TextColor="#CFD0D5"  />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Image>
+                            <Image.Source>
+                                <OnPlatform  x:TypeArguments="ImageSource">
+                                    <OnPlatform.iOS>euro.png</OnPlatform.iOS>
+                                    <OnPlatform.Android>euro.png</OnPlatform.Android>
+                                    <OnPlatform.WinPhone>Assets/euro.png</OnPlatform.WinPhone>
+                                </OnPlatform>
+                            </Image.Source>
+                        </Image>
+                        <Label    Text="{Binding Book.saleInfo.listPrice.amount, StringFormat='Price {0}'}" TextColor="#CFD0D5"  />
+                    </StackLayout>
+                </StackLayout>               
+                <BoxView Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3" HeightRequest="1" Color="#7BABED" />
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Button x:Name="BuyBtn" Grid.Column="0" Text="Buy" BackgroundColor="#7BABED" Clicked="BuyBtn_Clicked"></Button>
+                <Button x:Name="Back" Grid.Column="1"  Text="Back" BackgroundColor="#F6C2D8" Clicked="Back_Clicked"></Button>
+            </Grid>           
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

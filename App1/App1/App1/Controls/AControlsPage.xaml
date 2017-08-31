@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Controls.AControlsPage">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+            <Label Text="Welcome to the Controls Page!" />
+            <Label Text="ActivityIndicator" FontAttributes="Bold" />
+            <ActivityIndicator Color="Red" IsRunning="true" ></ActivityIndicator>          
+            <Label Text="BoxView" FontAttributes="Bold" />
+            <BoxView Color="Red" WidthRequest="50" HeightRequest="50"></BoxView>
+            <Label Text="Button" FontAttributes="Bold" />
+            <Button Clicked="Button_Clicked" Text="Click me!"></Button>
+            <Label x:Name="ButtonLabel" Text="" FontAttributes="Italic" />
+            <Label Text="DatePicker" FontAttributes="Bold" />
+            <DatePicker x:Name="DateCtrl" DateSelected="DateCtrl_DateSelected"></DatePicker>
+            <Label x:Name="DateSelected" FontAttributes="Italic" />
+            <Label Text="Editor" FontAttributes="Bold" />
+            <Editor x:Name="EditorCtr"  TextChanged="EditorCtr_TextChanged" HeightRequest="100" ></Editor>
+            <Label x:Name="EditorText" FontAttributes="Italic" />
+            <Label Text="Entry" FontAttributes="Bold" />
+            <Entry x:Name="EntryCtr"  TextChanged="EntryCtr_TextChanged"></Entry>
+            <Label x:Name="EntryText" FontAttributes="Italic" />
+            <Label Text="Image" FontAttributes="Bold" />
+            <Image x:Name="ImageCtr" ></Image>
+            <Label Text="Label" FontAttributes="Bold" />
+            <Label x:Name="LabelText" FontAttributes="Italic" />
+            <Label Text="ListView" FontAttributes="Bold" />
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="130"></RowDefinition>
+                    </Grid.RowDefinitions>
+            <ListView x:Name="ListViewCtr"  ItemSelected="ListViewCtr_ItemSelected" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="1*"/>
+                                        <ColumnDefinition Width="5*"/>                                        
+                                    </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="auto"></RowDefinition>
+                                        </Grid.RowDefinitions>
+                                    <Label Grid.Column="0" Text="{Binding Text}"></Label>
+                                    <Label Grid.Column="1" Text="{Binding Val}"></Label>
+                                                                  </Grid>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+                </Grid>
+                    <Label x:Name="ListViewText" FontAttributes="Italic" />
+                <Label Text="Picker" FontAttributes="Bold" />
+                <Picker x:Name="PickerCtr" Title="Select an Item" SelectedIndexChanged="PickerCtr_SelectedIndexChanged">
+                    <Picker.Items>
+                        <x:String>Item1</x:String>
+                        <x:String>Item2</x:String>
+                        <x:String>Item3</x:String>
+                    </Picker.Items>
+                </Picker>
+                <Label x:Name="PickerText" FontAttributes="Italic" />
+                <Label Text="ProgressBar" FontAttributes="Bold" />
+                <ProgressBar x:Name="ProgressBarCtr"  Progress=".2"></ProgressBar>
+                <Label Text="SearchBar" FontAttributes="Bold" />
+                <SearchBar x:Name="SearchBarCtr" Placeholder="Search here"></SearchBar>
+                <Label Text="Slider" FontAttributes="Bold" />
+                <Slider x:Name="SliderCtr" Value=".4" ValueChanged="SliderCtr_ValueChanged"></Slider>
+                <Label x:Name="SliderText" FontAttributes="Italic" />
+                <Label Text="Stepper" FontAttributes="Bold" />
+                <Stepper x:Name="StepperCtr" Value="6" ValueChanged="StepperCtr_ValueChanged"></Stepper>
+                <Label x:Name="StepperText" FontAttributes="Italic" />
+                <Label Text="Switch" FontAttributes="Bold" />
+                <Switch x:Name="SwitchCtr" IsToggled="True" Toggled="SwitchCtr_Toggled"></Switch>
+                <Label x:Name="SwitchText" FontAttributes="Italic" />
+                <Label Text="TableView" FontAttributes="Bold" />
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="400"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <TableView x:Name="TableViewCtr">
+                        <TableRoot>
+                            <TableSection Title="Title1">
+                                <TextCell Text="Text1" Detail="Detail1"></TextCell>
+                                <EntryCell Label="Entry1:" Placeholder="Type here" ></EntryCell>
+                            </TableSection>
+                            <TableSection Title="Title2">
+                                <TextCell Text="Text2" Detail="Detail2"></TextCell>
+                                <EntryCell Label="Entry2:" Placeholder="Type here" ></EntryCell>
+                                <SwitchCell Text="SwitchCell1:"></SwitchCell>                                
+                            </TableSection>
+                        </TableRoot>
+                    </TableView>
+                </Grid>
+                <Label Text="TimePicker" FontAttributes="Bold" />
+                <TimePicker x:Name="TimePickerCtr" ></TimePicker>
+                <Label Text="WebView" FontAttributes="Bold" />
+                <WebView x:Name="WebViewCtr" HeightRequest="400" ></WebView>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

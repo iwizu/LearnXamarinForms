@@ -1,0 +1,2 @@
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\UniBooks\UniBooks\UniBooks.UWP\UniBooks.UWP.csproj;x86
+C:\Users\iwizu\Documents\MSc\Xamarin\git\Lesson1\App1\UniBooks\UniBooks\UniBooks\UniBooks.csproj;neutral

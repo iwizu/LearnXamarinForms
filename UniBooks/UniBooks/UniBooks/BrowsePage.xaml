@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UniBooks.BrowsePage"
+             Title="{Binding ATitle}">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="About" Order="Primary" Priority="0" Clicked="ToolbarItem_Clicked"  />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>      
+        <StackLayout>
+            <StackLayout Orientation="Horizontal" Spacing="0">
+                <Image Source="Assets\Search.png" />
+                <Entry x:Name="SearchTxt"  Margin="0,0,0,0" WidthRequest="200"></Entry>
+                <Button x:Name="SearchBtn" Margin="0,0,0,0" Clicked="SearchBtn_Clicked" Text="Search" BackgroundColor="#FCEBBF" TextColor="#86878B" ></Button>
+            </StackLayout>
+            <ListView x:Name="test" HasUnevenRows="True" SeparatorVisibility="Default" SeparatorColor="Blue" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                                <Grid HeightRequest="175" WidthRequest="150" Margin="0,0,0,18"  >
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="150"></ColumnDefinition>
+                                        <ColumnDefinition Width="*"></ColumnDefinition>
+                                        <ColumnDefinition Width="100"></ColumnDefinition>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="50"></RowDefinition>
+                                        <RowDefinition Height="50"></RowDefinition>
+                                        <RowDefinition Height="49"></RowDefinition>
+                                    <RowDefinition Height="1"></RowDefinition>
+                               </Grid.RowDefinitions>
+                                    <Image Grid.Column="0" Grid.Row="0" Grid.RowSpan="3" Source="{Binding volumeInfo.imageLinks.smallThumbnail}" Aspect="AspectFit"></Image>
+                                    <StackLayout  Grid.Column="1" Grid.Row="0" Grid.RowSpan="3"  >
+                                        <Label  Text="{Binding volumeInfo.title}" TextColor="#86878B" FontAttributes="Bold" />
+                                        <Label  Text="{Binding volumeInfo.description}" TextColor="#CFD0D5" HeightRequest="80" />
+                                    </StackLayout>
+                                    <StackLayout  Grid.Column="2" Grid.Row="0" Grid.RowSpan="2"  >
+                                        <StackLayout Orientation="Horizontal">
+                                            <Image>
+                                                <Image.Source>
+                                                    <OnPlatform  x:TypeArguments="ImageSource">
+                                                        <OnPlatform.iOS>publ.png</OnPlatform.iOS>
+                                                        <OnPlatform.Android>publ.png</OnPlatform.Android>
+                                                        <OnPlatform.WinPhone>Assets/publ.png</OnPlatform.WinPhone>
+                                                    </OnPlatform>
+                                                </Image.Source>
+                                            </Image>
+                                            <Label    Text="{Binding volumeInfo.publisher}" TextColor="#CFD0D5" FontSize="10" FontAttributes="Italic"  />
+                                        </StackLayout>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Image>
+                                                <Image.Source>
+                                                    <OnPlatform  x:TypeArguments="ImageSource">
+                                                        <OnPlatform.iOS>rating.png</OnPlatform.iOS>
+                                                        <OnPlatform.Android>rating.png</OnPlatform.Android>
+                                                        <OnPlatform.WinPhone>Assets/rating.png</OnPlatform.WinPhone>
+                                                    </OnPlatform>
+                                                </Image.Source>
+                                            </Image>
+                                            <Label    Text="{Binding volumeInfo.Ratings}" TextColor="#CFD0D5"  />
+                                        </StackLayout>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Image>
+                                                <Image.Source>
+                                                    <OnPlatform  x:TypeArguments="ImageSource">
+                                                        <OnPlatform.iOS>euro.png</OnPlatform.iOS>
+                                                        <OnPlatform.Android>euro.png</OnPlatform.Android>
+                                                        <OnPlatform.WinPhone>Assets/euro.png</OnPlatform.WinPhone>
+                                                    </OnPlatform>
+                                                </Image.Source>
+                                            </Image>
+                                            <Label    Text="{Binding saleInfo.listPrice.amount, StringFormat='Price {0}'}" TextColor="#CFD0D5"  />
+                                        </StackLayout>
+                                    </StackLayout>
+                                    <Button x:Name="BuyBtn"  Grid.Column="2" Grid.Row="2" Text="Buy" BackgroundColor="#7BABED" TextColor="#FCFCFE" Clicked="BuyBtn_Clicked"  
+                                         CommandParameter ="{Binding id}"></Button>
+                                <BoxView Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3" HeightRequest="1" Color="#7BABED" />
+                           </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
